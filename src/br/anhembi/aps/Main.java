@@ -35,7 +35,7 @@ public class Main {
         new MonstroBatalha("Onix", Elemento.TERRA, 385, 1);
         new MonstroBatalha("Butterfree", Elemento.VENTO, 395, 8);
         new MonstroBatalha("Psyduck", Elemento.AGUA, 320, 10);
-        new MonstroBatalha(" Electrode", Elemento.ELETRICIDADE, 490, 3);
+        new MonstroBatalha("Electrode", Elemento.ELETRICIDADE, 490, 3);
         new MonstroBatalha("Arcanine", Elemento.FOGO, 555, 4);
         new MonstroBatalha("Dugtrio", Elemento.TERRA, 425, 9);
 
