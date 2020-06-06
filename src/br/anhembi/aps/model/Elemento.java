@@ -1,17 +1,16 @@
 package br.anhembi.aps.model;
 
 public enum Elemento {
-    agua("Água"),
-    fogo("Fogo"),
-    terra("Terra"),
-    vento("Vento"),
-    eletricidade("Eletricidade"),
-    dragao("Dragão");
+    AGUA("agua"),
+    FOGO("fogo"),
+    TERRA("terra"),
+    VENTO("vento"),
+    ELETRICIDADE("eletricidae"),
+    DRAGAO("dragao");
 
-    public final String Name;
+    public final String name;
 
     Elemento(String name) {
-        this.Name = name;
+        this.name = name;
     }
-
 }
