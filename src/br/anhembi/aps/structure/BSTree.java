@@ -150,21 +150,5 @@ public class BSTree<Type extends Comparable<Type>> implements BSTreeADT<Type> {
             subTreeRoot.left = this.getMinOfRightSubTree(root, subTreeRoot.left);
         }
         return subTreeRoot;
-    }   
-
-    @Override
-    public int height() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
-    @Override
-    public int nodeCount() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int leafCount() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
 }
