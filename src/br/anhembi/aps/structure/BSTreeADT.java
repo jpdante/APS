@@ -10,9 +10,4 @@ public interface BSTreeADT <Type extends Comparable<Type>> {
     
     public boolean contains(Type data);
     public void delete(Type data);
-
-    public int height();
-    public int nodeCount();
-    public int leafCount();
-    
 }

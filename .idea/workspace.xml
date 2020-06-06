@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dc74060-bc87-4af5-96e2-e735bdb90ee9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/anhembi/aps/exceptions/InsertNullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/anhembi/aps/structure/BSTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/anhembi/aps/structure/BSTreeADT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/anhembi/aps/structure/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/anhembi/aps/structure/BSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/anhembi/aps/structure/BSTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +90,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="544" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1591454273296">
