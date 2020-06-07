@@ -1,6 +1,6 @@
 package br.anhembi.aps.structure;
 
-public class Node <Type extends Comparable<Type>> {
+public class Node <Type extends MonsterComparable<Type>> {
     protected Type data;
     protected Node<Type> left;
     protected Node<Type> right;

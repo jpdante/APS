@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dc74060-bc87-4af5-96e2-e735bdb90ee9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/br/anhembi/aps/structure/BSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/anhembi/aps/structure/BSTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/anhembi/aps/structure/MonsterComparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/anhembi/aps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/anhembi/aps/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/anhembi/aps/model/MonstroBatalha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/anhembi/aps/model/MonstroBatalha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/anhembi/aps/structure/BSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/anhembi/aps/structure/MBBSTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/anhembi/aps/structure/BSTreeADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/anhembi/aps/structure/MBBSTreeADT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/anhembi/aps/structure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/anhembi/aps/structure/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,12 +96,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="544" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1591454273296">
@@ -103,5 +110,25 @@
     </state>
     <state x="544" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591454273296" />
     <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591324018290" />
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1591494564886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591494564886" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591496207370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591496207370" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591496207370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591496207370" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591496207370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591496207370" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591496207370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591496207370" />
   </component>
 </project>

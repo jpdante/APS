@@ -1,6 +1,8 @@
 package br.anhembi.aps.model;
 
-public class MonstroBatalha {
+import br.anhembi.aps.structure.MonsterComparable;
+
+public class MonstroBatalha implements MonsterComparable<MonstroBatalha> {
 
     private String nome;
     private Elemento elemento;
@@ -28,6 +30,14 @@ public class MonstroBatalha {
 
     public int getCarisma() {
         return carisma;
+    }
+
+    public int comparePowerTo(MonstroBatalha o) {
+        return Integer.compare(poderLuta, o.poderLuta);
+    }
+
+    public int compareCharismaTo(MonstroBatalha o) {
+        return Integer.compare(carisma, o.carisma);
     }
 
     @Override
