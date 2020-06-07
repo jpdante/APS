@@ -2,6 +2,13 @@ package br.anhembi.aps.model;
 
 import br.anhembi.aps.structure.MonsterComparable;
 
+/*
+ * Felipe Castro Marques - 21259039
+ * João Pedro Caires dos Santos Dante - 21321117
+ * Nícolas Ribeiro Marques - 21279441
+ * Gabriel Santana Mascena - 21265810
+ */
+
 public class MonstroBatalha implements MonsterComparable<MonstroBatalha> {
 
     private String nome;

@@ -2,6 +2,13 @@ package br.anhembi.aps.structure;
 
 import br.anhembi.aps.exceptions.InsertNullException;
 
+/*
+ * Felipe Castro Marques - 21259039
+ * João Pedro Caires dos Santos Dante - 21321117
+ * Nícolas Ribeiro Marques - 21279441
+ * Gabriel Santana Mascena - 21265810
+ */
+
 public class MBBSTree<Type extends MonsterComparable<Type>> implements MBBSTreeADT<Type> {
 
     private Node<Type> powerTree;
