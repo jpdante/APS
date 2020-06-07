@@ -41,6 +41,12 @@ public class Main {
 
         while(isRunning) {
             try {
+                System.out.println("---MENU---\n" +
+                        "1.Buscar pokemon em Pré-Ordem pelo atributo poder\n" +
+                        "2.Buscar pokemon em Pós-Ordem com atributo poder\n" +
+                        "3.Buscar pokemon em Pré-Ordem com atributo carisma\n" +
+                        "4.Buscar pokemon em Pós-ordem com atributo carisma");
+
                 switch (reader.read()) {
                     case '1':
                         break;
@@ -53,6 +59,12 @@ public class Main {
                     default:
                         break;
                 }
+                System.out.println("Deseja continuar? (S/n)");
+                String result = reader.readLine();
+                if(!result.equalsIgnoreCase("") && !result.equalsIgnoreCase("s")){
+                    isRunning = false;
+                }
+
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
