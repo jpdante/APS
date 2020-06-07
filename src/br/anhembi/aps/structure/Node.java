@@ -1,3 +1,4 @@
+
 package br.anhembi.aps.structure;
 
 /*
@@ -6,7 +7,6 @@ package br.anhembi.aps.structure;
  * Nícolas Ribeiro Marques - 21279441
  * Gabriel Santana Mascena - 21265810
  */
-
 public class Node <Type extends MonsterComparable<Type>> {
     protected Type data;
     protected Node<Type> left;

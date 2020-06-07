@@ -1,3 +1,4 @@
+
 package br.anhembi.aps.model;
 
 /*
@@ -6,7 +7,6 @@ package br.anhembi.aps.model;
  * Nícolas Ribeiro Marques - 21279441
  * Gabriel Santana Mascena - 21265810
  */
-
 public enum Elemento {
     AGUA("Água"),
     FOGO("Fogo"),

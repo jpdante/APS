@@ -1,3 +1,4 @@
+
 package br.anhembi.aps.structure;
 
 /*
@@ -6,8 +7,7 @@ package br.anhembi.aps.structure;
  * Nícolas Ribeiro Marques - 21279441
  * Gabriel Santana Mascena - 21265810
  */
-
-public interface MBBSTreeADT<Type extends MonsterComparable<Type>> {
+public interface MBBSTreeADT <Type extends MonsterComparable<Type>>{
     public boolean isEmpty();
 
     public void insertItem(Type data);

@@ -1,3 +1,4 @@
+
 package br.anhembi.aps;
 
 import br.anhembi.aps.model.Elemento;
@@ -12,8 +13,8 @@ import java.util.Scanner;
  * Nícolas Ribeiro Marques - 21279441
  * Gabriel Santana Mascena - 21265810
  */
-
 public class Main {
+
     public static void main(String[] args) {
         new Main().run(args);
     }

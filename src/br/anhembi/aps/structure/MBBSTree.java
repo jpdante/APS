@@ -1,6 +1,7 @@
+
 package br.anhembi.aps.structure;
 
-import br.anhembi.aps.exceptions.InsertNullException;
+import br.anhembi.aps.exception.InsertNullException;
 
 /*
  * Felipe Castro Marques - 21259039
@@ -8,9 +9,8 @@ import br.anhembi.aps.exceptions.InsertNullException;
  * Nícolas Ribeiro Marques - 21279441
  * Gabriel Santana Mascena - 21265810
  */
-
 public class MBBSTree<Type extends MonsterComparable<Type>> implements MBBSTreeADT<Type> {
-
+    
     private Node<Type> powerTree;
     private Node<Type> charismaTree;
 

@@ -1,3 +1,4 @@
+
 package br.anhembi.aps.model;
 
 import br.anhembi.aps.structure.MonsterComparable;
@@ -8,9 +9,8 @@ import br.anhembi.aps.structure.MonsterComparable;
  * Nícolas Ribeiro Marques - 21279441
  * Gabriel Santana Mascena - 21265810
  */
-
-public class MonstroBatalha implements MonsterComparable<MonstroBatalha> {
-
+public class MonstroBatalha implements MonsterComparable<MonstroBatalha>{
+    
     private String nome;
     private Elemento elemento;
     private int poderLuta;
